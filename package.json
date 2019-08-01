@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer-coverage-bug-in-media-query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pirosikick/puppeteer-coverage-bug-in-media-query.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pirosikick/puppeteer-coverage-bug-in-media-query/issues"
+  },
+  "homepage": "https://github.com/pirosikick/puppeteer-coverage-bug-in-media-query#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^1.19.0",
+    "puppeteer-to-istanbul": "^1.2.2"
+  }
+}
