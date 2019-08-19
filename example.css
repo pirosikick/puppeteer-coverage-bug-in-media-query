@@ -12,7 +12,7 @@ h1 {
   }
 }
 
-/* @media with space indent */
+/* @media with tab indent */
 @media screen {
 	h1 {
 		color: yellow;

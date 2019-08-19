@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf coverage .nyc_output",
+    "collect-coverage": "node collect-coverage.js && nyc report --reporter=html",
+    "publish": "gh-pages -d coverage"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,10 @@
     "express": "^4.17.1",
     "puppeteer": "^1.19.0",
     "puppeteer-to-istanbul": "^1.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "nyc": "^14.1.1",
+    "rimraf": "^3.0.0"
   }
 }
