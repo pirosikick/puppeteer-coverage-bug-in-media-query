@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/pirosikick/puppeteer-coverage-bug-in-media-query#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "puppeteer": "^1.19.0",
     "puppeteer-to-istanbul": "^1.2.2"
   },
